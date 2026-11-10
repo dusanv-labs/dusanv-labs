@@ -26,6 +26,7 @@
 A full-stack booking app for padel, tennis and football courts, in English and Serbian:
 
 - **Players:** availability calendar (fully booked days in red), hour grid with free courts and prices, booking code, cancel link and *Add to calendar*
+- **AI booking assistant:** ask in plain language (*"Is there a free padel court tomorrow after 18:00?"*); a Claude tool-use agent with read-only tools finds free courts and shows checked options that open the booking form, with daily cost limits and no access to customer data
 - **Venue admin:** bookings with search, phone bookings, courts, opening hours and prices, blocked time, and a **revenue report** with chart, print, XLSX and PDF export
 - **Engineering:** double booking prevented by a PostgreSQL exclusion constraint, time zone and DST handled correctly, unit and end-to-end tests in CI, JWT auth, rate limiting
 
@@ -48,6 +49,7 @@ A full-stack booking app for padel, tennis and football courts, in English and S
 ![REST API](https://img.shields.io/badge/REST_API-005571?style=flat-square)
 ![JWT](https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white)
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=flat-square&logo=swagger&logoColor=black)
+![Claude API](https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white)
 
 **Frontend**
 ![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
